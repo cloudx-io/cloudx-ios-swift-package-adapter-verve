@@ -5,7 +5,7 @@ This repository distributes the Verve adapter for the CloudX iOS SDK.
 ## Requirements
 
 - iOS 13 or later
-- Xcode 15 or later
+- Xcode 26 or later (HyBid 3.9.0 is built with Swift 6.3)
 - CloudX Core 3.9.1 or later
 
 ## Installation

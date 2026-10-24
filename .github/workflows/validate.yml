@@ -11,11 +11,11 @@ permissions:
 
 jobs:
   package:
-    runs-on: macos-15
+    runs-on: macos-26
     steps:
       - uses: actions/checkout@v5
-      - name: Select Xcode 16
-        run: sudo xcode-select --switch /Applications/Xcode_16.4.app
+      - name: Select Xcode 26
+        run: sudo xcode-select --switch "$(ls -d /Applications/Xcode_26*.app | sort -V | tail -1)"
       - name: Validate manifest
         run: swift package dump-package
       - name: Resolve dependencies
