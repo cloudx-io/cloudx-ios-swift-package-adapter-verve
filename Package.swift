@@ -20,14 +20,14 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/vervegroup/hybid-ios-spm-sdk.git",
-            exact: "3.9.0"
+            exact: "3.9.3"
         ),
     ],
     targets: [
         .binaryTarget(
             name: "CloudXVerveAdapter",
-            url: "https://github.com/cloudx-io/cloudx-ios-swift-package-adapter-verve/releases/download/binary/3090001.0.0/CloudXVerveAdapter.xcframework.zip",
-            checksum: "2de58712fac2ac7dc35b2fe49692b8a240cdcea7c82144125111b80286eb4aff"
+            url: "https://github.com/cloudx-io/cloudx-ios-swift-package-adapter-verve/releases/download/binary/3090300.0.0/CloudXVerveAdapter.xcframework.zip",
+            checksum: "8b572668ffebcf6da6c2fd5773117022b4d7a8f14cade242c13b8a9157d4cb2c"
         ),
         .target(
             name: "CloudXVerveAdapterPackage",
