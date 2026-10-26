@@ -38,6 +38,6 @@ jobs:
       - name: Verify artifact checksum
         run: |
           curl --fail --location --output /tmp/CloudXVerveAdapter.xcframework.zip \
-            https://github.com/cloudx-io/cloudx-ios-swift-package-adapter-verve/releases/download/binary/3090001.0.0/CloudXVerveAdapter.xcframework.zip
+            https://github.com/cloudx-io/cloudx-ios-swift-package-adapter-verve/releases/download/binary/3090300.0.0/CloudXVerveAdapter.xcframework.zip
           test "$(swift package compute-checksum /tmp/CloudXVerveAdapter.xcframework.zip)" = \
-            "2de58712fac2ac7dc35b2fe49692b8a240cdcea7c82144125111b80286eb4aff"
+            "8b572668ffebcf6da6c2fd5773117022b4d7a8f14cade242c13b8a9157d4cb2c"

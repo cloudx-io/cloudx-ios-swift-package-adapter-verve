@@ -8,7 +8,7 @@
 @implementation CloudXVerveAdapterObjCTests
 
 - (void)testAdapterIsLinkedAndRegistered {
-    XCTAssertEqualObjects(CLXVerveAdapterVersion, @"3.9.0.1");
+    XCTAssertEqualObjects(CLXVerveAdapterVersion, @"3.9.3.0");
     XCTAssertNotNil(NSClassFromString(@"CLXVerveInitializer"));
 }
 

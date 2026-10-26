@@ -24,6 +24,7 @@ flag to retain the adapter registration code.
 
 | Package version | CloudX adapter | HyBid SDK |
 | --- | --- | --- |
+| `3090300.0.0` | `3.9.3.0` | `3.9.3` |
 | `3090001.0.0` | `3.9.0.1` | `3.9.0` |
 
 The package installs CloudX Core and HyBid SDK as dependencies. Import
